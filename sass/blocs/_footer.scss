@@ -3,7 +3,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
-
+    
     &::before{
         content: "";
         width: 364px;
@@ -14,6 +14,7 @@
         right: 20px;
         top: -90px;
     }
+
 
     .footer_wrapper--lists{
         display: flex;
@@ -72,4 +73,8 @@
         mix-blend-mode: none;
     }
 
+    
+    .footer_bottom--span{
+        text-align: center;
+    }
 }
