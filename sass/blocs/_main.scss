@@ -1,0 +1,97 @@
+.main{
+    margin-top: 73px;
+    .main_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .inside_main--box{
+            display: flex;
+            width: 48%;
+            height: 278px;
+            padding: 51px 3px;
+            font-size: 12px;
+            background-color: #F2F3F5;
+            margin-bottom: 68px;
+            .text_inside{
+                max-width: 259px;
+                height: 75px;
+                padding-right: 10px;
+                padding-left: 20px;
+
+                & h4{
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: uppercase;
+                    color: #4B4844;
+                }
+
+                & p{
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 127.5%;
+                    display: flex;
+                    align-items: center;
+                    color: #4B4844;
+                }
+            }
+
+            .text_inside--nensi{
+                padding: 20px;
+            }
+
+        }
+    }
+}
+
+.slider_box{
+    max-width: 102px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .slider_box--paragraph{
+        margin: 0 15px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 110%;
+        color: rgba(52, 52, 52, 0.5)
+    }
+
+    .slider_black{
+        color: #4B4844;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+
+    .main{
+        .main_wrapper{
+            display: flex;
+
+            & img{
+                width: 100px;
+                height: 70px;
+            }
+        }
+        .inside_main--box_mobile{
+            width: 161px;
+            height: 165px;
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+        }
+        .text_inside{
+            display: none;
+        }
+    }
+
+    
+}
