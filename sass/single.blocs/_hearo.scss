@@ -1,0 +1,59 @@
+.hearo {
+    padding-top: 58px;
+    padding-bottom: 184px;
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .hearo__heading {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #343434;
+        
+    }
+
+    .hearo__title {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #343434;
+    }
+
+    .hearo__info {
+        max-width: 371px;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #343434;
+    }
+    
+    .hearo__orange {
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FF9619;
+    }
+
+    .hearo__link {
+        max-width: 238px;
+        padding: 15px 13px;
+        display: block;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: #FF9619;
+    }
+}
