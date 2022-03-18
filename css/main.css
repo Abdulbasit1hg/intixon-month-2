@@ -1033,6 +1033,7 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 100px;
 }
 
 .table__row {
